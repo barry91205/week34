@@ -1,0 +1,98 @@
+// location 通用
+.mb-24 {
+    margin-bottom: 96px;
+}
+// location
+.title {
+    font-size: 48px;
+    line-height: 72px;
+    color:#000000;
+    font-weight: bold;
+    border-left: 8px solid #9F1213;
+    padding-left: 16px;
+}
+
+.area-label {
+    font-size: 24px;
+    line-height: 36px;
+    color:#000000
+}
+
+.area-select {
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 26px;
+    color:#495057;
+    width: 300px;
+}
+
+// location-list  -----------------------
+.location-list {
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.location-item {
+    width: 33.3333333%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 48px;
+    // border: 1px solid #00000020;
+    h2 {
+        padding: 8px 24px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        color: #000000;
+        border: 1px solid #00000020 ;
+        // border-left: 1px solid #00000020;
+        // border-right: 1px solid #00000020;
+        // border-bottom: 1px solid #00000020;
+    }
+    a {
+        padding: 16px 0px;
+        background-color: #000000;
+        color: #FFFFFF;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.location-info {
+    padding: 16px 24px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    border-left: 1px solid #00000020;
+    border-right: 1px solid #00000020;
+    li {
+        margin-bottom: 8px;
+    }
+}
+
+.border-bottom {
+    border-bottom:1px solid #00000020; ;
+}
+
+@media (max-width: 768px) {
+    .location-list {
+       padding-inline: 24px;
+    }
+    .location-item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .area-label {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .location-list {
+       padding-inline: 2px;
+    }
+    .location-item {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+}

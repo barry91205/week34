@@ -1,0 +1,293 @@
+// banner -----------------
+.banner {
+  // background-image: url(asset/images/home-header.png);
+  background-image: url(../assets/images/home-header.png);
+  padding-block: 296px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: $title-color;
+  h1 {
+      font-size: 64px;
+      font-weight:bold;
+      line-height: 96px;
+  }
+  h3 {
+      font-size: 36px;
+      line-height: 54px;
+  }
+}
+
+.btn {
+  background-color: $primary-color;
+  padding: 6px 12px;
+  font-size: 20px;
+  color: #FFFFFF;
+  line-height: 30px;
+  &:hover {
+      background-color: #650300;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+      padding-right: 37px;
+  }
+}
+
+@media (max-width: 430px) {
+  .banner {
+      padding-right: 14px;
+      padding-block: 144px;
+      h1 {
+          font-size: 24px;
+          line-height: 36px;
+      }
+      h3 {
+          font-size: 16px;
+          line-height: 24px;
+      }
+  }
+  .btn {
+      font-size: 20px;
+      line-height: 30px;
+  }
+}
+
+//   intro  用專業的心，做專業的事------------------------------------------------
+.intro {
+  background-color: #FBF2F2;
+}
+
+.intro-items {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.intro-item {
+  width: 25%;
+  color: $title-color;
+  padding-left: 12px;
+  padding-right: 12px;
+  img{
+      width: 84px;
+  }
+  h4 {
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: bold;
+  }
+  p {
+      color:#000000 ;
+      text-align: start;
+      }
+}
+
+@media (max-width: 768px) {
+  .intro-items {
+      padding-inline: 24px;
+      flex-wrap: wrap;
+  }
+  .intro-item {
+      width: 48%;
+  }
+}
+
+@media (max-width: 576px) {
+  .intro-items {
+      flex-direction: column;
+      justify-content: center;
+      padding-inline: 2px;
+  }
+  .intro-item {
+      width: 100%;
+      margin-bottom: 32px;
+  }
+}
+
+// catena 經典系列鏡框---------------------------
+
+.catena-item {
+  width: 33.33333%;
+  p {
+      font-size: 48px;
+      line-height: 72px;
+      font-weight: 900;
+      color: #AA0601;
+      font-style: italic;
+  }
+}
+
+@media (max-width: 768px) {
+  .catena-items {
+      flex-direction: column;
+      justify-content: center;
+      padding-inline: 216px;
+  }
+  .catena-item {
+      width: 100%;
+      margin-bottom: 24px;
+      img {
+          margin-bottom: 8px;
+      }
+  }
+}
+
+@media (max-width: 576px) {
+  .catena h2 {
+      margin-bottom: 24px;
+  }
+  .catena-items {
+      flex-direction: column;
+      justify-content: center;
+      padding-inline: 14px;
+  }
+  .catena-item {
+      margin-bottom: 32px;
+      img {
+          margin-bottom: 8px;
+      }
+  }
+}
+
+//  joint name 聯名設計鏡框 ---------------------------
+.joint-name {
+  background-image: url(../assets/images/index-bg.png);
+}
+
+.joint-item {
+  p {
+      font-size: 48px;
+      line-height: 72px;
+      font-weight: 900;
+      color: #AA0601;
+      background-color: #FFFFFF;
+      border-right: 1px solid #ddd;
+      font-style: italic;
+      padding: 8px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .joint-items {
+      flex-direction: column;
+      padding-inline: 36px;
+  }
+  .joint-item {
+      width: 100%;
+      margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .joint-items {
+      flex-direction: column;
+      padding-inline: 14px;
+  }
+  .joint-item {
+      width: 100%;
+      margin-bottom: 24px;
+  }
+}
+
+// <!-- 顧客推薦 Customer recommendations------------------------>
+.reco-item {
+  width: 25%;
+}
+.reco-text {
+  padding: 16px;
+  border: 1px solid #DEE2E6;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 6px #00000029;
+  p {
+      color: #000000;
+      font-weight: 500;
+  }
+  span {
+      color: #707070;
+      font-size: 14px;
+      line-height: 21px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reco-items {
+      flex-wrap: wrap;
+      padding-inline: 36px;
+      // gap:0px;
+  }
+  .reco-item {
+      width: 48%;
+      // margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .reco-items {
+      flex-direction: column;
+      padding-inline: 14px;
+  }
+  .reco-item {
+      width: 100%;
+      margin-bottom: 24px;
+  }
+}
+
+// connection 聯絡我們 ---------------------------
+.connection {
+  padding-block: 80px;
+  background-color: #FBF2F2;
+  p {
+      color: #000000;
+  }
+}
+.wrap {
+  max-width: 636px;
+  margin: 0 auto;
+}
+.w-100 {
+  width: 100%;
+}
+label {
+  display: block;
+}
+.field {
+  padding: 6px 12px;
+  background-color: #FBF2F2;
+  border: 1px solid #000000;
+  ::placeholder {
+      opacity: 0.2;
+  }
+}
+textarea {
+  background-color: #FBF2F2;
+  padding: 6px 12px;
+}
+textarea::placeholder {
+  color: #000000;   
+  opacity: 0.2;
+}
+
+.checkbox-container {
+  display: flex;
+}
+
+
+
+.confirm-btn {
+  padding:16px 176px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  border: 0px;
+  cursor: pointer;
+  &:hover {
+      background-color: #650300;
+  }
+}
+
+@media (max-width: 576px) {
+ .confirm-btn {
+  padding:16px 142px;
+ }
+}

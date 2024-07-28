@@ -1,0 +1,139 @@
+//  通用 
+.none {
+    display: none;
+}
+
+
+.blog-plan {
+    display: inline-block;
+    vertical-align: top;
+    width: 66.05%;
+    margin-top: 24px;
+    span {
+        color: #AA0601;
+    }
+    h1 {
+        font-size: 48px;
+        line-height: 72px;
+        color:#000000;
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 36px;
+        color:#000000;
+        margin-bottom: 16px;
+    }
+}
+
+.plan-list {
+    margin-bottom: 40px;
+}
+.plan-item {
+    img {
+        margin-bottom: 8px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        color:#555555;
+    }
+}
+.tag {
+    li {
+        margin-right: 15px;
+        margin-bottom: 8px;
+    }
+}
+
+.share-list {
+    margin-bottom: 24px;
+}
+
+.share {
+    li {
+        color:#000000;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bold;
+        margin-right: 16px;
+        margin-bottom: 16px;
+        img {
+            width: 24px;
+        }
+    }
+}
+
+.page-btn2 {
+    margin-bottom: 80px;
+    a {
+        color:#000000
+    }
+}
+
+// ----------------------------------------------
+.tags {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 24px;
+    margin-top: 100px;
+    h2 {
+        color:#AA0601;
+        font-size: 32px;
+        line-height: 48px;
+        font-weight: bold;
+    }
+    li {
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: bold;
+        margin-right: 24px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .blog-plan {
+        padding-left: 36px;
+    }
+    .plan-item {
+        margin-bottom: 24px;
+    }
+    .tags {
+        h2,li {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        
+    }
+    .d-md {
+        display: block;
+    }
+    .n-md {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .tags,.share-list,.page-btn2 {
+        display: none;
+    }
+    .blog-plan {
+        width: 100%;
+        padding-right: 14px;
+        padding-left: 14px;
+        margin-bottom: 64px;
+        h1 {
+            font-size: 24px;
+            line-height: 36px;
+        }
+        h3 {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 600;
+        }
+    }
+    .plan-item {
+        margin-bottom: 16px;
+    }
+
+}

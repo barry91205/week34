@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3 眼鏡 - 門市據點</title>
+    <link rel="icon" href="../assets/images/logo-white.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <%- include('./layout/header'); -%>
+
+    <!-- location 門市據點 -->
+     <div class="location">
+        <div class="container2">
+            <div class="d-flex align-center"></div>
+            <h1 class="title mb-8">門市據點</h1>
+            <from class="d-flex align-center mb-10">
+                <label class="area-label mr-4" for="area">選擇地區</label>
+                <select class="area-select" id="area" name="area">
+                    <option value="台北市">台北市</option>
+                    <option value="新北市">新北市</option>
+                    <option value="台中市">台中市</option>
+                    <option value="台南市">台南市</option>
+                </select> 
+            </from> 
+
+            <!-- location list -->
+        <ul class="location-list d-flex ">
+            <li class="location-item">
+                <img src="../assets/images/store-1.png" alt="store">
+                <h2>台北中山旗艦店</h2>
+                <ul class="location-info">
+                    <li>電話：(02)000-1234</li>
+                    <li>營業時間：10:00-21:00</li>
+                    <li>地址：台北市中山區南京東路25巷2-1號</li>
+                </ul>
+                <a href="../pages/locationItem.html">詳細資訊</a>
+            </li>
+            <li class="location-item">
+                <img src="../assets/images/store-2.png" alt="store">
+                <h2>台北綠園店</h2>
+                <ul class="location-info">
+                    <li>電話：(02)000-2345</li>
+                    <li>營業時間：10:00-21:00</li>
+                    <li>地址：台北市中正區復興南路 132-1 號</li>
+                </ul>
+                <a href="../pages/locationItem.html">詳細資訊</a>
+            </li>
+            <li class="location-item">
+                <img src="../assets/images/store-3.png" alt="store">
+                <h2>台中清水旗艦店</h2>
+                <ul class="location-info">
+                    <li>電話：(02)000-1234</li>
+                    <li>營業時間：10:00-21:00</li>
+                    <li>地址：台中市清水區經南一路 23 號 8 樓</li>
+                </ul>
+                <a href="../pages/locationItem.html">詳細資訊</a>
+            </li>
+            <li class="location-item">
+                <img src="../assets/images/store-4.png" alt="store">
+                <h2>高雄中正形象店</h2>
+                <ul class="location-info">
+                    <li>電話：(07)000-2345</li>
+                    <li>營業時間：10:00-21:00</li>
+                    <li>地址：高雄市苓雅區中正路 38 號 12 樓</li>
+                </ul>
+                <a href="../pages/locationItem.html">詳細資訊</a>
+            </li>
+            <li class="location-item">
+                <img src="../assets/images/store-5.png" alt="store">
+                <h2>高雄夢時代店</h2>
+                <ul class="location-info">
+                    <li>電話：(02)000-1234</li>
+                    <li>營業時間：10:00-21:00</li>
+                    <li>地址：高雄市前鎮區中華一路 63 號 6 樓</li>
+                </ul>
+                <a href="../pages/locationItem.html">詳細資訊</a>
+            </li>
+
+        </ul>
+        </div>     
+     </div>
+<!-- footer -->
+<%- include('./layout/footer'); -%>
+
+   <script type="module" src="../main.js"></script>
+</body>
+</html>

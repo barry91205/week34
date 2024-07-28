@@ -1,0 +1,188 @@
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+.container2 {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+// ----------------------------------
+*, *::before, *::after {
+    box-sizing:border-box;
+    // width: 100%;
+   }
+
+body {
+    font-family: $font-family-base,$font-eng;
+    color: $primary-color;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+h2 {
+    color: #650300;
+    font-size: 48px;
+    line-height: 72px;
+    font-weight:bold;
+}
+h5 {
+    font-size: 36px;
+    line-height: 54px;
+}
+// 模組 -----------------------------------------
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.center {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.mb-1 {
+    margin-bottom: 4px;
+}
+
+.mb-2 {
+    margin-bottom: 8px;
+}
+
+.mb-3 {
+    margin-bottom: 12px;
+}
+
+.mb-4 {
+    margin-bottom: 16px;
+}
+
+.mb-6 {
+    margin-bottom: 24px;
+}
+
+.mb-8 {
+    margin-bottom: 32px;
+}
+
+.mb-9 {
+    margin-bottom: 36px;
+}
+
+.mb-10 {
+    margin-bottom: 40px;
+}
+
+.mb-12 {
+    margin-bottom: 48px;
+}
+
+.mb-18 {
+    margin-bottom: 72px;
+}
+
+.mr-1 {
+    margin-right: 4px;
+}
+
+.mr-2 {
+    margin-right: 8px;
+}
+
+.mr-3 {
+    margin-right: 12px;
+}
+
+.mr-4 {
+    margin-right: 16px;
+}
+
+.mr-5 {
+    margin-right: 20px;
+}
+
+.mr-6 {
+    margin-right: 24px;
+}
+
+.mr-22px {
+    margin-right: 22px;
+}
+
+.mr-12 {
+    margin-right: 48px;
+}
+
+.ml-3 {
+    margin-left: 12px;
+}
+
+.ml-8 {
+    margin-left: 32px;
+}
+
+.ml-12 {
+    margin-left: 48px;
+}
+
+.ml-16 {
+    margin-left: 64px;
+}
+
+.py-4 {
+    padding-block: 16px;
+}
+
+.uni-py {
+    padding-block: 80px;
+}
+
+
+.text-end {
+    text-align: end;
+}
+.text-center {
+    text-align: center;
+}
+
+.gap-6 {
+    gap: 24px;
+}
+
+.text-white {
+    color:#FFFFFF ;
+}
