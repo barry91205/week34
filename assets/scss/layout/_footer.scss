@@ -16,3 +16,56 @@
   color: #FFFFFF;
   margin-left: 32px;
 }
+
+@media (max-width: 768px) {
+  .footer {
+      padding: 56px 36px;
+      padding-bottom: 500px;
+  }
+
+  .footer hr {
+      margin-bottom: 16px;
+  }
+
+  .icon {
+      width: 40px;
+      margin-right: 16px;
+  }
+
+  .co-icon {
+      width: 40px;
+      line-height: 0px;
+  }
+ }
+
+@media (max-width: 576px) {
+  .footer {
+      padding: 27px 16px;
+  }
+  .footer-nav {
+      display: none;
+  }
+
+  .icon {
+      width: 18px;
+      line-height: 24px;
+  }
+  .co-icon {
+      width: 24px;
+      line-height: 0px;
+      margin-left: 8px;
+  }
+
+  h5 {
+      font-size: 16px;
+      line-height: 24px;
+  }
+
+  .footer hr {
+      margin-bottom: 16px;
+  }
+
+  .ml-12 {
+      margin-left: 0px;
+  }
+ }

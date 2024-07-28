@@ -2,8 +2,13 @@
     padding-block: 96px;
 }
 
+.location-li {
+    display: flex;
+}
+
 .location-content {
     max-width: 40.59%;
+    margin-right: 24px;
     h2 {
         padding: 8px 24px;
         font-size: 24px;
@@ -23,4 +28,54 @@
 
 .location-map {
     width: 57.56%;
+}
+
+@media (max-width: 768px) {
+    .location-li {
+        flex-direction: column;
+    }
+    .location-content {
+        max-width: 100%;
+        margin-bottom: 26px;
+        display: flex;
+        margin-right: 0px;
+        border-bottom: 0px;
+        .location-infos {
+            width: 100%;
+        }
+        .location-info {
+            border-bottom: 1px solid #00000020;
+        }
+        img {
+            width: 50%;
+            margin-right: 24px;
+        }
+    }
+
+    .location-infos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .location-map {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .area-label {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .location-content {
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 24px;
+        img {
+            width: 100%;
+        }
+    }
+    .location-infos {
+        width: 100%;
+    }
 }

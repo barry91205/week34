@@ -286,8 +286,17 @@ textarea::placeholder {
   }
 }
 
+@media (max-width: 768px) {
+  .connection {
+    padding-inline: 36px;
+  }
+ }
+
 @media (max-width: 576px) {
  .confirm-btn {
   padding:16px 142px;
  }
+ .connection {
+  padding-inline: 14px;
+}
 }

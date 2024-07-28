@@ -186,3 +186,15 @@ h5 {
 .text-white {
     color:#FFFFFF ;
 }
+
+// 通用
+@media (max-width: 768px) {
+    .py-md-6 {
+        padding-inline: 36px;
+    }
+}
+@media (max-width: 576px) {
+    .py-sm-3 {
+        padding-inline: 14px;
+    }
+}
