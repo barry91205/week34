@@ -16,6 +16,17 @@
       padding-inline: 36px;
   }
 }
+@media (max-width: 640px) {
+    .nav {
+        li {
+            a {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+  }
+
 @media (max-width: 576px) {
   .header {
       padding-inline: 0px;
@@ -26,7 +37,7 @@
           margin-left: 15px
       }
   }
-  .container {
+  .navs {
       flex-direction: column;
       align-items: start;
   }

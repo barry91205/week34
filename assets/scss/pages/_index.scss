@@ -1,8 +1,6 @@
 // banner -----------------
 .banner {
-  // background-image: url(asset/images/home-header.png);
-  background-image: url(../assets/images/home-header.png);
-  padding-block: 296px;
+  background-image: url(/assets/images/home-header.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,6 +14,13 @@
       font-size: 36px;
       line-height: 54px;
   }
+}
+
+.banner-wrap {
+  height: 787px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
 .btn {
@@ -38,7 +43,6 @@
 @media (max-width: 430px) {
   .banner {
       padding-right: 14px;
-      padding-block: 144px;
       h1 {
           font-size: 24px;
           line-height: 36px;
@@ -51,6 +55,9 @@
   .btn {
       font-size: 20px;
       line-height: 30px;
+  }
+  .banner-wrap {
+    height: 396px;
   }
 }
 
@@ -153,6 +160,8 @@
 //  joint name 聯名設計鏡框 ---------------------------
 .joint-name {
   background-image: url(../assets/images/index-bg.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .joint-item {
@@ -218,6 +227,18 @@
   }
   .reco-item {
       width: 48%;
+      // margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 666px) {
+  .reco-items {
+      flex-wrap: wrap;
+      padding-inline: 36px;
+      // gap:0px;
+  }
+  .reco-item {
+      width: 100%;
       // margin-bottom: 24px;
   }
 }
