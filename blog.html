@@ -6,21 +6,21 @@
     <title>W3 眼鏡 - 部落格</title>
     <link rel="icon" href="/week34/assets/logo-white-5423463a.png" type="image/png">
     <link href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp" rel="stylesheet">
-  <script type="module" crossorigin src="/week34/assets/main-949de6c7.js"></script>
-  <link rel="stylesheet" href="/week34/assets/main-d0d2e8fc.css">
+  <script type="module" crossorigin src="/week34/assets/main-2505d6d6.js"></script>
+  <link rel="stylesheet" href="/week34/assets/main-80e25965.css">
 </head>
 <body>
     <!-- header -->
     <!-- header -->
 <header class="header py-4">
-    <div class="container d-flex align-center">
+    <div class="container navs d-flex align-center">
         <a href="../pages/index.html"><img src="/week34/assets/logo-white-5423463a.png" alt="眼鏡官網logo"></a>
         
         <ul class="nav d-flex">
-            <li><a href="../pages/catena.html">系列鏡框</a></li>
-            <li class="ml-16"><a href="../pages/location.html">門市據點</a></li>
-            <li class="ml-16"><a href="../pages/blogs.html">部落格</a></li>
-            <li class="ml-16"><a href="../pages/question.html">常見問題</a></li>
+            <li><a href="catena.html">系列鏡框</a></li>
+            <li class="ml-16"><a href="location.html">門市據點</a></li>
+            <li class="ml-16"><a href="blogs.html">部落格</a></li>
+            <li class="ml-16"><a href="question.html">常見問題</a></li>
         </ul>
     </div>  
 </header>    <!-- blog nav -->
@@ -47,20 +47,20 @@
             </ul>
             <h1>情人特別企劃</h1>
             <h3>2020 Valentine’s Special</h3>
-            <ul class="plan-list">
-                <li class="plan-item">
+            <div class="plan-list">
+                <div class="plan-item">
                     <img src="/week34/assets/blogpage-1-89258247.png" alt="blogpage">
                     <p>一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。 本次拍攝的鏡框款式與 NEEDS CLASSIC 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！</p>
-                </li>
-                <li class="plan-item">
+                </div>
+                <div class="plan-item">
                     <img src="/week34/assets/blogpage-2-feff0706.png" alt="blogpage">
                     <p>一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。 本次拍攝的鏡框款式與 NEEDS CLASSIC 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！</p>
-                </li>
-                <li class="plan-item">
+                </div>
+                <div class="plan-item">
                     <img src="/week34/assets/blogpage-3-b7eced2d.png" alt="blogpage">
                     <p>一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。 本次拍攝的鏡框款式與 NEEDS CLASSIC 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！</p>
-                </li>
-                <li class="plan-item">
+                </div>
+                <div class="plan-item">
                     <img src="/week34/assets/blogpage-4-24f81160.png" alt="blogpage">
                     <p>2/14(五)-2/20(日)<br> 至本店單筆消費滿2980元, 就送情人節限定眼鏡盒1個<br> 
                     期間優惠還有~~持他牌鏡框更換鏡片<br>
@@ -68,8 +68,8 @@
                     濾藍光鏡片折500元<br>
                     快快帶上另一半<br>
                     讓彼此每一次睜開眼，都被愛的視線包圍!</p>
-                </li>
-            </ul>
+                </div>
+            </div>
             <div class="share-list n-md">
                 <ul class="share d-flex">
                     <li>share</li>
@@ -123,7 +123,7 @@
 <footer class="footer uni-py">
     <div class="container">
         <div class="footer-content mb-8 d-flex space-between">
-            <div class="info">
+            <div class="info mb-8">
                 <ul class="footer-nav d-flex mb-9">
                     <li class="mr-12"><a href="#" class="text-white">首頁</a></li>
                     <li class="mr-12"><a href="#" class="text-white">系列鏡框</a></li>
@@ -132,17 +132,21 @@
                     <li><a href="#" class="text-white">常見問題</a></li>
                 </ul>
                 <ul class="connect-info">
-                    <li class="d-flex mb-2">
-                        <span class="icon material-icons-outlined">
-                            call
-                        </span>
-                        <h5>0800-000-000</h5>
+                    <li class="mb-2">
+                        <a class="d-flex text-white" href="tel:+0800-000-000">
+                            <span class="icon material-icons-outlined">
+                                call
+                            </span>
+                            <h5>0800-000-000</h5>
+                        </a>            
                     </li>
                     <li class="d-flex">
-                        <span class="icon material-icons-outlined">
-                            mail
-                        </span>
-                        <h5>glasses@business.com</h5>
+                        <a class="d-flex text-white" href="mailto:glasses@business.com">
+                            <span class="icon material-icons-outlined">
+                                mail
+                            </span>
+                            <h5>glasses@business.com</h5>
+                        </a>                      
                     </li>
                 </ul>
             </div>
@@ -154,7 +158,7 @@
                 </ul>
             </div>
         </div>
-       <hr class="mb-12">
+       <!-- <hr class="mb-12"> -->
        <div class="d-flex space-between flex-col-sm">
         <p class="mb-2">Copyright © 2020 Glasses.All rights reserved.</p>
         <ul class="d-flex flex-col-sm lh-6-sm">
